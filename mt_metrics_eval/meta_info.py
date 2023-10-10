@@ -69,6 +69,7 @@ WMT22_NODOMAIN = MetaInfo(
     'refA',
     {'sys': 'wmt-appraise', 'seg': 'wmt-appraise'},
     set(), WMT22_PRIMARIES)
+Literary = MetaInfo('ref', {'sys': 'mqm', 'seg': 'mqm'}, set(), set())
 
 DATA = {
     'wmt22': {
@@ -218,5 +219,12 @@ DATA = {
         'lt-en': WMT19,
         'ru-en': WMT19,
         'zh-en': WMT19,
-    }
+    },
+  "LiteraryTranslation23": {
+    'de-en-2': Literary, 'ja-en-3': Literary, 'ja-en-1': Literary, 'zh-en-2': Literary, 'cs-pl-2': Literary, 'pl-en-1': Literary, 'en-pl-3': Literary, 'zh-en-3': Literary, 'fr-pl-2': Literary, 
+    'ru-en-2': Literary, 'ru-en-3': Literary, 'pl-ja-3': Literary, 'fr-en-3': Literary, 'ja-pl-2': Literary, 'de-ja-2': Literary, 'en-ja-2': Literary, 'pl-ja-1': Literary, 'fr-ja-3': Literary, 
+    'de-pl-1': Literary, 'fr-pl-1': Literary, 'pl-ja-2': Literary, 'ru-ja-3': Literary, 'fr-en-2': Literary, 'ru-pl-1': Literary, 'ru-en-1': Literary, 'en-pl-1': Literary, 'zh-en-1': Literary, 
+    'ja-pl-3': Literary, 'zh-ja-2': Literary, 'de-en-1': Literary, 'fr-ja-2': Literary, 'fr-en-1': Literary, 'ru-ja-2': Literary, 'fr-ja-1': Literary, 'en-ja-3': Literary, 'ja-pl-1': Literary, 
+    'cs-pl-3': Literary, 'ja-en-2': Literary, 'ru-ja-1': Literary, 'de-ja-3': Literary, 'zh-ja-1': Literary, 'pl-en-3': Literary, 'en-ja-1': Literary, 'de-pl-2': Literary, 'en-pl-2': Literary, 
+    'de-ja-1': Literary, 'ru-pl-3': Literary, 'fr-pl-3': Literary, 'cs-pl-1': Literary, 'ru-pl-2': Literary, 'de-en-3': Literary, 'zh-ja-3': Literary, 'de-pl-3': Literary, 'pl-en-2': Literary,},
 }
